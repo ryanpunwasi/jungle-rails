@@ -1,5 +1,5 @@
 <section class="cart-show">
-
+  <% if enhanced_cart.length != 0%>
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
@@ -48,5 +48,13 @@
       <% end %>
     </div>
   </div>
+<% else %>
+<div class="alert alert-info mt-5 text-center fw-bold border-1" role="alert">
+  You're cart is empty. Start shopping!
+</div>
+<div class="d-flex justify-content-center mt-5">
+  <a class="btn btn-primary" href="/">Home</a>
+<div>
+<% end %>
 
 </section>
