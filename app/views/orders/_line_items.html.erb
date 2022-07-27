@@ -1,0 +1,10 @@
+<% @order.line_items.each do |item|%>
+  <tr>
+  <th colspan="2"><img src=<%=item.product.image%> height="100" width="100"/></th>
+  <th colspan="2"><%=item.product.name%></th>
+  <th colspan="2"><%=item.product.description%></th>
+  <th><%=item.item_price%></th>
+  <th><%=item.quantity%></th>
+  <th><%=item.total_price%></th>
+</tr>
+<% end %>
