@@ -1,9 +1,9 @@
-<h1>Admin::Categories#index</h1>
+<h1>Admin » Categories</h1>
 <div class="well">
     <%= link_to '+ New Category', [:new, :admin, :category], class: 'btn btn-info' %>
   </div>
-<ul>
+<ul class="list-group list-group-flush">
 <%@categories.each do |cat|%>
-<li><%=cat.name%></li>
+  <li class="list-group-item"><%=cat.name%></li>
 <%end%>
 </ul>
