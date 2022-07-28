@@ -1,0 +1,9 @@
+<h1>Admin::Categories#index</h1>
+<div class="well">
+    <%= link_to '+ New Category', [:new, :admin, :category], class: 'btn btn-info' %>
+  </div>
+<ul>
+<%@categories.each do |cat|%>
+<li><%=cat.name%></li>
+<%end%>
+</ul>
