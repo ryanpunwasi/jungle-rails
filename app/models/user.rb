@@ -5,7 +5,7 @@ class User < ApplicationRecord
     email = email.strip.downcase
     user = User.find_by_email(email)
 
-    if user.authenticate(password)
+    if user && user.authenticate(password)
       @user = user
       return @user
     else
