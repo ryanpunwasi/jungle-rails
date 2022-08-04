@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 as part of the cirriculum of Lighthouse Labs. Features implemented or debugged include:
+A mini e-commerce application built with Rails 6.1 as part of the curriculum of Lighthouse Labs. Features implemented or debugged include:
 
 - Authentication
 - Checkout
