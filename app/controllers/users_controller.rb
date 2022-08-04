@@ -11,9 +11,9 @@ class UsersController < ApplicationController
 
     if @user.save
       session[:user_id] = @user.id
-      redirect_to '/'
+      redirect_to '/', notice: 'You have successfully signed up!'
     else
-      redirect_to '/signup'
+      redirect_to '/signup', notice: @user.errors.full_messages.first
     end
   end
 
