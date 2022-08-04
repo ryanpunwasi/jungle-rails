@@ -1,6 +1,11 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1, with authentication and checkout functionality.
+A mini e-commerce application built with Rails 6.1 as part of the cirriculum of Lighthouse Labs. Features implemented or debugged include:
+
+- Authentication
+- Checkout
+- Conditional rendering of messages
+- Adminstrator operations (Adding new categories and products)
 
 ## Setup
 
