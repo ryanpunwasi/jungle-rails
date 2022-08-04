@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1, with authentication and checkout functionality.
 
 ## Setup
 
@@ -16,6 +16,24 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 ## Database
 
 If Rails is complaining about authentication to the database, uncomment the user and password fields from `config/database.yml` in the development and test sections, and replace if necessary the user and password `development` to an existing database user.
+
+## Screenshots
+
+<h3>Header</h3>
+
+![List of appointments](docs/header.png)
+
+<h3>Products</h3>
+
+![List of appointments](docs/products.png)
+
+<h3>Individual Product</h3>
+
+![List of appointments](docs/product.png)
+
+<h3>Cart</h3>
+
+![List of appointments](docs/cart.png)
 
 ## Stripe Testing
 
